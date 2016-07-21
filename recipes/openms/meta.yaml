@@ -12,6 +12,7 @@ requirements:
     - llvm   # [osx]
     - cmake
     - curl
+    - autoconf
   run:
     
 test:
