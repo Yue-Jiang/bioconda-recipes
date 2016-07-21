@@ -2,8 +2,8 @@ package:
   name: openms
   version: "2.0.1"
 source:
-  fn: Release2.0.1.tar.gz
-  url: https://github.com/OpenMS/OpenMS/archive/Release2.0.1.tar.gz
+  fn: OpenMS-2.0.1-src-contrib-docu.tar.gz
+  url: https://github.com/OpenMS/OpenMS/releases/download/Release2.0.1/OpenMS-2.0.1-src-contrib-docu.tar.gz
 build:
     number: 0
 requirements:

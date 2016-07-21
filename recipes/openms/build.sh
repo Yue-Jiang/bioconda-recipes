@@ -1,10 +1,8 @@
 #!/bin/sh
 
-wget https://github.com/OpenMS/contrib/archive/e8f628db990010ae67fe2c466544b5ce50a846da.tar.gz
+#curl -L https://api.github.com/repos/OpenMS/contrib/tarball/e8f628db990010ae67fe2c466544b5ce50a846da | tar zx
 
-tar xfvz e8f628db990010ae67fe2c466544b5ce50a846da.tar.gz
-
-mv contrib-e8f628db990010ae67fe2c466544b5ce50a846da contrib
+#mv contrib-e8f628db990010ae67fe2c466544b5ce50a846da contrib
 cd contrib
 
 cmake . -DBUILD_TYPE=SEQAN
