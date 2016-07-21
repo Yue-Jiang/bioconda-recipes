@@ -13,6 +13,7 @@ requirements:
     - cmake
     - curl
     - autoconf
+    - automake
   run:
     
 test:
