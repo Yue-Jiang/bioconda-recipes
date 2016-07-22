@@ -11,6 +11,7 @@ requirements:
     - gcc    # [linux]
     - llvm   # [osx]
     - cmake
+    - wget
     - autoconf
     - automake
     - libtool
