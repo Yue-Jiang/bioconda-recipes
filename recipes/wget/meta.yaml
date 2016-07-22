@@ -1,0 +1,29 @@
+package:
+  name: wget
+  version: 1.15
+
+source:
+  fn: wget-1.15.tar.gz
+  url: http://ftp.gnu.org/gnu/wget/wget-1.15.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - gcc   # [linux]
+    - llvm  # [osx]
+    - zlib
+    - openssl
+  run:
+    - libgcc  # [linux]
+    - zlib
+    - openssl
+
+test:
+  commands:
+    - wget --help
+
+about:
+  home: http://www.gnu.org/software/wget/
+  license: GPL 3
